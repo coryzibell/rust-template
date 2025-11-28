@@ -1,0 +1,20 @@
+[package]
+name = "my-project"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust project"
+authors = ["Your Name <you@example.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/username/my-project"
+
+[dependencies]
+# CLI
+# clap = { version = "4", features = ["derive"] }
+
+# Error handling
+anyhow = "1"
+# thiserror = "2"
+
+[[bin]]
+name = "my-project"
+path = "src/main.rs"
