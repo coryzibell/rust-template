@@ -22,4 +22,4 @@ path = "src/main.rs"
 [dev-dependencies.cargo-husky]
 version = "1"
 default-features = false
-features = ["prepush-hook", "run-cargo-fmt", "run-cargo-clippy"]
+features = ["user-hooks"]
