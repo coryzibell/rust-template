@@ -7,6 +7,6 @@ on:
 
 jobs:
   release:
-    uses: coryzibell/nebuchadnezzar/.github/workflows/follow-the-white-rabbit.yml@main
+    uses: coryzibell/nebuchadnezzar/.github/workflows/follow-the-white-rabbit.yml@v1
     secrets:
       GH_PAT: ${{ secrets.GH_PAT }}
